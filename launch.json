@@ -8,6 +8,7 @@
             "type": "java",
             "name": "Current File",
             "request": "launch",
+            "cwd": "${workspaceFolder}\\SFA_BAT",
             "mainClass": "org.springframework.batch.core.launch.support.CommandLineJobRunner",
             "vmArgs": "-ea -Xms64m -Xmx512m -Djavax.xml.parsers.DocumentBuilderFactory=com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl",
             "args": "classpath:/launch-context.xml kdMail"
